@@ -2244,20 +2244,20 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
+		background: url("images/overlay.png"), url("../../images/overlay.png");
+		background-size: 100px 100px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: top left, center left;
 		background-repeat: repeat, no-repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
+		background: url("images/overlay.png"), url("../../images/suppose.png");
+		background-size: 256px 256px, contain;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: top left, center left;
 	}
 
 /* Two */
